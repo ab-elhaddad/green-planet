@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Green Planet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License](https://img.shields.io/badge/license-MIT-red.svg)](LICENSE)
+[![Deployed on Render](https://img.shields.io/badge/Preview_on-Render-blue)](https://recycling-store-llmk.onrender.com/)
 
-## Available Scripts
+Green Planet is a client-side web application that allows users to sell and buy e-waste. The application is built using React and Bootstrap. The application is hosted on Render.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [License](#license)
+- [Contributing](#contributing)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application has the following features:
 
-### `npm test`
+- Users can view the list of products
+- Users can view the details of a product
+- Users can add a product to the cart
+- Users can view the cart
+- Users can remove a product from the cart
+- Users can checkout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To install the application, follow the instructions below:
 
-### `npm run eject`
+1. Run `git clone https://github.com/ab-elhaddad/green-planet.git` to clone the repository
+2. Run `npm install` to install the dependencies
+3. Run `npm start` to start the application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Home Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Home-1](https://github.com/ab-elhaddad/green-planet/assets/113056556/6483297a-d410-40e7-af44-e4a4226e7955)![Home-2](https://github.com/ab-elhaddad/green-planet/assets/113056556/98731be8-3fa4-436f-9aa9-74793e8de36d)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Cart Page
 
-## Learn More
+![Cart-1](https://github.com/ab-elhaddad/green-planet/assets/113056556/a6dcd938-e9cd-47c0-a627-26502ff31b66) ![Cart-2](https://github.com/ab-elhaddad/green-planet/assets/113056556/922e1007-1f55-42ac-8ea4-d3b35a1b70d7)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Profile Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Profile](https://github.com/ab-elhaddad/green-planet/assets/113056556/3c103d39-fe1a-4a8a-bfd8-d0ef10e3af88)
 
-### Code Splitting
+Add Product Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Add-Product](https://github.com/ab-elhaddad/green-planet/assets/113056556/6626263e-8e84-4249-a683-5f964cdf844c)
 
-### Analyzing the Bundle Size
+Contact Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Contact-1](https://github.com/ab-elhaddad/green-planet/assets/113056556/38c952f9-1f7c-4250-b4c7-4988ec0b1173)![Contact-2](https://github.com/ab-elhaddad/green-planet/assets/113056556/11dd70b4-6742-4012-86b1-f7b197ffb162)
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome. Feel free to open a pull request or report a bug by opening an issue.
