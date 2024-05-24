@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #f5dad2;
+  --secondary-color: #fcffe0;
+  --tertiary-color: #bacd92;
+  --quaternary-color: #75a47f;
+  --black: rgb(88, 88, 88);
+}
+
+body {
+  background: linear-gradient(
+    to bottom right,
+    var(--secondary-color),
+    var(--tertiary-color)
+  );
+  overflow-x: hidden;
+}
+
+.footer {
+  background-color: var(--quaternary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-icon {
+  color: var(--tertiary-color);
+}

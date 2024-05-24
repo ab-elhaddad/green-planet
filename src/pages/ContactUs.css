@@ -1,0 +1,107 @@
+.contact-conatiner {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+}
+
+.contact-methods .method {
+  background-color: var(--tertiary-color);
+  padding: 2vw;
+  margin: 0 1.5vw;
+  height: 33vh;
+  width: 17vw;
+  color: var(--black);
+}
+
+.contact-methods .method h3 {
+  font-size: 1.5vw;
+}
+
+.contact-methods .method p {
+  font-size: 1vw;
+}
+
+.contact-methods .method .icon {
+  font-size: 4vw;
+  margin-bottom: 3vh;
+}
+
+.contact-card {
+  background-color: var(--quaternary-color);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  padding-top: 110px;
+  margin-top: 25vh;
+  margin-bottom: 10vh;
+}
+
+.contact-card h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 4vh;
+  color: var(--black);
+}
+
+.contact-card form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-card form input {
+  background-color: var(--tertiary-color);
+  border: none;
+  margin: 2vh 0;
+  padding: 10px;
+  width: 80%;
+}
+
+.contact-card form input::placeholder {
+  color: var(--quaternary-color);
+}
+
+.contact-card form input:focus {
+  outline: none;
+}
+
+.contact-card form .msg {
+  height: 150px;
+}
+
+.contact-card form .btn {
+  padding: 0.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: none;
+  background-color: var(--tertiary-color);
+  color: var(--black);
+  cursor: pointer;
+  margin-top: 2.5rem;
+  width: 40%;
+  transition: all 0.5s;
+}
+
+.contact-card form .btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+  letter-spacing: 2px;
+}
+
+.contact-card form .btn:focus {
+  outline: none;
+}

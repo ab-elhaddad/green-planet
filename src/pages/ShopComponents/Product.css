@@ -1,0 +1,44 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 450px;
+  transition: all 0.3s ease;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product * {
+  margin: 7px;
+}
+
+.product h3 {
+  font-size: 1.7vw;
+  transition: 0.2s;
+}
+
+.product:hover h3 {
+  color: var(--tertiary-color);
+}
+
+.product img {
+  height: 300px;
+  width: 100%;
+  border-radius: 0 20px 0 20px;
+  object-fit: cover;
+  object-fit: cover;
+}
+
+.product .price {
+  display: flex;
+  align-items: self-start;
+}
+
+.product .price p {
+  font-size: 0.8vw;
+  margin: 2px;
+  display: flex;
+  align-items: last baseline;
+}

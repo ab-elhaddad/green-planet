@@ -1,0 +1,205 @@
+.cart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 7vw;
+}
+
+.cart-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: var(--quaternary-color);
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 10vh;
+}
+
+.left {
+  width: 70%;
+  padding: 7vh 0;
+  /* border: solid 2px red; */
+}
+
+.left .vertical-line {
+  background-color: var(--quaternary-color);
+  height: 1.6rem;
+  width: 0.07rem;
+  margin: 0 20px;
+  opacity: 0.5;
+}
+
+.left .cart-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  /* border: solid 0.07rem var(--quaternary-color); */
+  /* height: 50vh; */
+}
+
+.cart-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 3vw;
+  margin-top: 4vh;
+  color: var(--black);
+}
+
+.cart-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.05s;
+  text-align: center;
+}
+
+.cart-back:hover {
+  color: var(--quaternary-color);
+}
+
+.back-icon {
+  font-size: 1.2rem;
+  margin-bottom: 2vh;
+  margin-right: 0.2vw;
+}
+
+.subtotal {
+  display: flex;
+}
+
+.subtotal p {
+  margin-right: 4vw;
+}
+
+.right {
+  /* border-top: solid 0.9rem var(--secondary-color); */
+  /* border-bottom: solid 1rem var(--secondary-color); */
+  border-top: solid 0.25rem var(--secondary-color);
+  /* margin-top: 0.5rem; */
+  background-color: var(--quaternary-color);
+  width: 40%;
+  box-shadow: 0 0 20px 0 var(--quaternary-color);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-fields-container {
+  padding: 5vw;
+}
+
+.right h1 {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.card-types {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card-types * {
+  margin: 10px;
+  font-size: 2.5rem;
+  color: var(--tertiary-color);
+  transition: 0.3s;
+}
+
+.card-types *:hover {
+  color: var(--secondary-color);
+}
+
+.card-number {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.card-number input {
+  width: 100%;
+  height: 2rem;
+  margin: px 0;
+  padding: 5px;
+  font-size: 1rem;
+  border: none;
+  background-color: var(--quaternary-color);
+  border-bottom: solid 0.15rem var(--tertiary-color);
+  color: var(--secondary-color);
+}
+
+.card-number input:focus {
+  outline: none;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.card-details label {
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
+
+.card-details input {
+  width: 70%;
+  height: 2rem;
+  padding: 5px;
+  font-size: 1rem;
+  border: none;
+  background-color: var(--quaternary-color);
+  border-bottom: solid 0.15rem var(--tertiary-color);
+  color: var(--secondary-color);
+  margin-top: 10px;
+}
+
+.card-details input:focus {
+  outline: none;
+}
+
+.card-details input::placeholder {
+  color: var(--tertiary-color);
+}
+.card-details .cvv {
+  width: 40%;
+}
+
+.card-details .cvv,
+.card-details .exp-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.right .checkout {
+  background-color: var(--secondary-color);
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.right .checkout:hover {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  letter-spacing: 0.2rem;
+  font-size: 2.2rem;
+}

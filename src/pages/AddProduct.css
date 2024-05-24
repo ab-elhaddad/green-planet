@@ -1,0 +1,108 @@
+.add-product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.add-product-container .icon-container {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  background-color: var(--tertiary-color);
+  padding: 1.5rem;
+  border-radius: 100px;
+  margin-top: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-product-container .icon-container .icon {
+  color: var(--quaternary-color);
+  font-size: 6rem;
+}
+
+.add-product-card {
+  width: 40vw;
+  margin: 50px;
+  background-color: var(--quaternary-color);
+  padding: 2rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.add-product-card form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 4rem;
+  height: 70%;
+}
+
+.add-product-card form .input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 80%;
+}
+
+.add-product-card form .input-container input {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: solid 1px var(--tertiary-color);
+  background-color: var(--quaternary-color);
+  color: var(--secondary-color);
+}
+
+.add-product-card form .input-container input:focus {
+  outline: none;
+}
+
+.add-product-card form .input-container input::placeholder {
+  color: var(--tertiary-color);
+}
+
+.add-product-card form .input-container label {
+  font-size: 1.5rem;
+  color: var(--tertiary-color);
+}
+
+.add-product-card form .btn {
+  padding: 0.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: none;
+  background-color: var(--tertiary-color);
+  color: var(--quaternary-color);
+  cursor: pointer;
+  margin-top: 2.5rem;
+  border-radius: 50px;
+  width: 80%;
+  transition: all 0.5s;
+}
+
+.add-product-card form .btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+  letter-spacing: 2px;
+}
+
+.add-product-card form .btn:focus {
+  outline: none;
+}
+
+.add-product-card .add-product-footer {
+  font-size: 1vw;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: var(--secondary-color);
+  margin-top: 2.5rem;
+}
+
+.add-product-card .add-product-footer a {
+  color: var(--tertiary-color);
+}
